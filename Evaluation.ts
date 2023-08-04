@@ -33,7 +33,7 @@ let mattObj: Member = {
     Name: 'Matt',
     FavoriteFood: 'Brisket Tacos',
     FavoriteMovie: 'The Princess Bride',
-    Status: 'Inactive',
+    Status: 'Active',
 };
 
 /**@HugoCostilla I added a new member with some of my information */
@@ -41,7 +41,7 @@ let hugoObj: Member = {
     Name: 'Hugo',
     FavoriteFood: 'Spaguetti',
     FavoriteMovie: 'Back to the future',
-    Status: 'Inactive'
+    Status: 'Active'
 }
 
 // Team member objects
