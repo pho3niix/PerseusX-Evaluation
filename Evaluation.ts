@@ -21,7 +21,7 @@ let miroslavObj: Member = {
     Name: 'Miroslav',
     FavoriteFood: 'Sushi',
     FavoriteMovie: 'American Psycho',
-    Status: 'Active',
+    Status: 'Inactive',
 };
 let donnyObj: Member = {
     Name: 'Donny',
@@ -33,7 +33,7 @@ let mattObj: Member = {
     Name: 'Matt',
     FavoriteFood: 'Brisket Tacos',
     FavoriteMovie: 'The Princess Bride',
-    Status: 'Active',
+    Status: 'Inactive',
 };
 
 /**@HugoCostilla I added a new member with some of my information */
@@ -41,7 +41,7 @@ let hugoObj: Member = {
     Name: 'Hugo',
     FavoriteFood: 'Spaguetti',
     FavoriteMovie: 'Back to the future',
-    Status: 'Active'
+    Status: 'Inactive'
 }
 
 // Team member objects
@@ -81,7 +81,7 @@ function sortOutputByProperty(arr: Member[], property: keyof Member) {
     console.log('sorted result:');
     arr.forEach((item) => {
         /**@HugoCostilla I fixed this part of code by adding a correct braces for object and added the correct property, in this case "Name" to print a sorted member's name list*/
-        console.log({ Name: `${item[property]}` });
+        console.log({ [property]: `${item[property]}` });
     });
 }
 
