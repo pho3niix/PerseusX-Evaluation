@@ -14,8 +14,8 @@ interface Member {
 let rockyObj: Member = {
     Name: 'Rocky',
     FavoriteFood: 'Sushi',
-    FavoriteMovie: 'Back to The Future',
-    Status: 'Inactive',
+    FavoriteMovie: 'Star wars',
+    Status: 'Active',
 };
 let miroslavObj: Member = {
     Name: 'Miroslav',
